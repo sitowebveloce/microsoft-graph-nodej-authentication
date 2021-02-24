@@ -1,0 +1,55 @@
+body {
+    padding: 4.5rem;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    background-color: #333;
+    color: #ebebeb;
+}
+
+a {
+    color: #00B7FF;
+}
+
+button,
+input {
+    outline: none;
+    border: none;
+}
+
+img.microsoft-logo {
+    width: 33px;
+}
+
+.alert-pre {
+    word-wrap: break-word;
+    word-break: break-all;
+    white-space: pre-wrap;
+}
+
+.jumbotron {
+    height: 300px;
+    position: relative;
+    background: url(/images/win.jpg) !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100% !important;
+    background-attachment: fixed;
+}
+
+.jumbotron::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .6);
+}
+
+.jumbotron .content {
+    position: absolute;
+    z-index: 1 !important;
+}
+
+.title {
+    color: red;
+}
